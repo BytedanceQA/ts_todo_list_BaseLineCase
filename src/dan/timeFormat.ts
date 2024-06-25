@@ -1,8 +1,3 @@
-/**
- * 时间格式化
- * @param millisecond 毫秒数
- * @param format 默认 'hh:mm:ss'
- */
 export default function timeFormat(millisecond: number, format = 'hh:mm:ss'): string {
     millisecond = +millisecond;
     if (isNaN(millisecond)) {
